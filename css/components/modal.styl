@@ -1,0 +1,41 @@
+.e-mdl--on
+    overflow hidden
+
+.e-modal
+    visibility hidden
+    opacity 0
+    overflow hidden
+    transition: transition
+    position fixed
+    left 0
+    right 0
+    top 0
+
+    &:before
+        content ''
+        position: fixed
+        top 0
+        left 0
+        right 0
+        height 120vh
+        background-color: rgba(0,0,0,0.8)
+        z-index 1000
+        will-change opacity
+
+    &.open
+        visibility visible
+        bottom 0
+        opacity 1
+
+    .e-modal__container
+        position relative
+        z-index 101
+
+    .e-modal--close
+        color #fff
+        position absolute
+        right 0
+        top 0
+
+    .e-modal--large
+        @extend .e-container

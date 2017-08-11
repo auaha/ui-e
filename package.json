@@ -1,0 +1,35 @@
+{
+  "name": "ui-e",
+  "description": "Framework CSS ui-ecommerce",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "framework",
+    "css",
+    "grid"
+  ],
+  "tags": [
+    "framework",
+    "css"
+  ],
+  "version": "0.0.4",
+  "author": {
+    "name": "Auaha",
+    "email": "developer@auaha.com.br",
+    "homepage": "http://www.auaha.com.br"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auaha/ui-e"
+  },
+  "dependencies": {},
+  "license": "MIT",
+  "main": "dist/ui-e.js",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-stylus": "^2.6.0",
+    "postcss-pxtorem": "^4.0.1"
+  }
+}

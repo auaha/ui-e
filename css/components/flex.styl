@@ -1,0 +1,45 @@
+.e-fx
+    display flex
+
+.e-fx-inline
+    display inline-flex
+
+.e-fx-wrap
+    flex-wrap wrap
+
+.e-fx-nowrap
+    flex-wrap nowrap
+
+.e-fx-left
+    justify-content flex-start
+.e-fx-right
+    justify-content flex-end
+.e-fx-center
+    justify-content center
+.e-fx-between
+    justify-content space-between
+.e-fx-around
+    justify-content space-around
+
+
+
+.e-fx-stretch
+    align-items stretch
+
+.e-fx-top
+    align-items flex-start
+
+.e-fx-middle
+    align-items center
+
+.e-fx-bottom
+    align-items flex-end
+
+for al, i in alias
+    @media (min-width medias[i])
+
+        .e-fx-first{'\@'}{al}
+            order -1
+
+        .e-fx-last{'\@'}{al}
+            order 999

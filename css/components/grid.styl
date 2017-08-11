@@ -1,0 +1,85 @@
+.e-container
+    margin 0 auto
+    max-width "calc(100% - %s)" % gap;
+    width: width;
+
+.e-grid
+    align-items flex-start
+    display flex
+    flex-wrap wrap
+    margin-left -(gap / 2)
+    margin-right -(gap / 2)
+
+    > *
+        flex 1 0 100%
+        min-width 0
+        padding (gap / 2)
+        transition all 300ms ease-in-out
+
+    &.e-grid-collapse
+        margin 0
+
+        > *
+            padding 0
+
+    &.e-grid-fit
+        > *
+            padding 0 (gap / 2)
+
+.e-w
+    flex 0 0 auto
+
+.e-grid-match
+    & > * > :not([class*='e-w-'])
+        flex 1 1 auto
+        height 100%
+
+.e-grid .e-expand
+    flex: 1 1 auto
+    max-width none
+
+.e-w-first
+    order -1
+
+.e-w-last
+    order 999
+
+.e-w-1-1
+    flex 1 1 100%
+    max-width 100%
+    width 100%
+
+for x in 2..columns
+    for y in 1...x
+        .e-w-{y}-{x}
+            flex 1 1 (100 / x * y)%
+            max-width (100 / x * y)%
+            width (100 / x * y)%
+
+for al, i in alias
+    .e-grid.e-grid-{al}
+        margin-left: -(gaps[i] / 2)
+        margin-right: -(gaps[i] / 2)
+
+        > *
+            padding: (gaps[i] / 2)
+
+    @media (min-width medias[i])
+        .e-grid
+            margin-left: -(gaps[i] / 2)
+            margin-right: -(gaps[i] / 2)
+
+            > *
+                padding: (gaps[i] / 2)
+
+        for x in 2..columns
+            for y in 1...x
+                .e-w-{y}-{x}{'\@'}{al}
+                    flex 1 1 (100 / x * y)%
+                    max-width (100 / x * y)%
+                    width (100 / x * y)%
+
+        .e-w-1-1{'\@'}{al}
+            flex 1 1 100%
+            max-width 100%
+            width 100%
