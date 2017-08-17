@@ -26,10 +26,18 @@
         > *
             padding 0 (gap / 2)
 
+    .e-w
+        flex 0 0 auto
+
 .e-grid-match
     & > * > :not([class*='e-w-'])
         flex 1 1 auto
         height 100%
+
+.e-expand
+    flex: 1 1 auto
+    max-width none
+
 
 
 .e-w-1-1
@@ -68,8 +76,6 @@ for al, i in alias
                     max-width (100 / x * y)%
                     width (100 / x * y)%
 
-        .e-w
-            flex 0 0 auto
         .e-w{'\@'}{al}
             flex 0 0 auto
 
@@ -77,7 +83,3 @@ for al, i in alias
             flex 1 1 100%
             max-width 100%
             width 100%
-
-.e-expand
-    flex: 1 1 auto
-    max-width none
