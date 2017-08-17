@@ -26,9 +26,6 @@
         > *
             padding 0 (gap / 2)
 
-.e-w
-    flex 0 0 auto
-
 .e-grid-match
     & > * > :not([class*='e-w-'])
         flex 1 1 auto
@@ -46,6 +43,7 @@ for x in 2..columns
             flex 1 1 (100 / x * y)%
             max-width (100 / x * y)%
             width (100 / x * y)%
+
 
 for al, i in alias
     .e-grid.e-grid-{al}
@@ -65,16 +63,19 @@ for al, i in alias
 
         for x in 2..columns
             for y in 1...x
-                .e-w-{y}-{x}{'\@'}{al}
+                .e-grid .e-w-{y}-{x}{'\@'}{al}
                     flex 1 1 (100 / x * y)%
                     max-width (100 / x * y)%
                     width (100 / x * y)%
+
+
+        .e-w{'\@'}{al}
+            flex 0 0 auto
 
         .e-w-1-1{'\@'}{al}
             flex 1 1 100%
             max-width 100%
             width 100%
-
 
 .e-expand
     flex: 1 1 auto
