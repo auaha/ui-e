@@ -1,18 +1,15 @@
+for al, i in alias
+    @media (min-width: medias[i])
+        .e-hide-up{'\@'}{al}
+            display none
+
+for al, i in alias
+    @media (max-width: medias[i] - 1)
+        .e-hide-dw{'\@'}{al}
+            display none
+
 .e-hide
-    display none !important
+    display none
 
 .e-show
-    display block !important
-
-
-
-for al, i in alias
-    @media (min-width medias[i])
-        .e-hide-up{'\@'}{al}
-            display none !important
-
-
-for al, i in alias
-    @media (max-width medias[i + 1])
-        .e-hide-dw{'\@'}{al}
-            display none !important
+    display block
