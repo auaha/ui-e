@@ -3,10 +3,16 @@ for al, i in alias
         .e-hide-up{'\@'}{al}
             display none
 
+        .e-hide-up{'\@'}{al}{'\!'}
+            display none !important
+
 for al, i in alias
     @media (max-width: medias[i] - 1)
         .e-hide-dw{'\@'}{al}
             display none
+
+        .e-hide-dw{'\@'}{al}{'\!'}
+            display none !important
 
 .e-hide
     display none
