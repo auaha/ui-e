@@ -4934,153 +4934,153 @@ select {
 
 /* line 41 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\modal.styl */
 
-/* line 76 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\modal.styl */
+/* line 21 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\modal.styl */
 
 /* line 2 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 
 /* line 9 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-m-xs {
-  padding: px;
+  margin: 10px;
 }
 
 /* line 11 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mt-xs {
-  padding-top: px;
+  margin-top: 10px;
 }
 
 /* line 13 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mr-xs {
-  padding-right: px;
+  margin-right: 10px;
 }
 
 /* line 15 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mb-xs {
-  padding-bottom: px;
+  margin-bottom: 10px;
 }
 
 /* line 17 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-ml-xs {
-  padding-left: px;
+  margin-left: 10px;
 }
 
 /* line 21 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-m-sm {
-  padding: ps;
+  margin: 15px;
 }
 
 /* line 23 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mt-sm {
-  padding-top: ps;
+  margin-top: 15px;
 }
 
 /* line 25 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mr-sm {
-  padding-right: ps;
+  margin-right: 15px;
 }
 
 /* line 27 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mb-sm {
-  padding-bottom: ps;
+  margin-bottom: 15px;
 }
 
 /* line 29 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-ml-sm {
-  padding-left: ps;
+  margin-left: 15px;
 }
 
 /* line 33 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-m-md {
-  padding: pm;
+  margin: 20px;
 }
 
 /* line 35 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mt-md {
-  padding-top: pm;
+  margin-top: 20px;
 }
 
 /* line 37 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mr-md {
-  padding-right: pm;
+  margin-right: 20px;
 }
 
 /* line 39 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mb-md {
-  padding-bottom: pm;
+  margin-bottom: 20px;
 }
 
 /* line 41 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-ml-md {
-  padding-left: pm;
+  margin-left: 20px;
 }
 
 /* line 45 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-m-lg {
-  padding: pl;
+  margin: 25px;
 }
 
 /* line 47 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mt-lg {
-  padding-top: pl;
+  margin-top: 25px;
 }
 
 /* line 49 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mr-lg {
-  padding-right: pl;
+  margin-right: 25px;
 }
 
 /* line 51 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mb-lg {
-  padding-bottom: pl;
+  margin-bottom: 25px;
 }
 
 /* line 53 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-ml-lg {
-  padding-left: pl;
+  margin-left: 25px;
 }
 
 /* line 57 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-m-xl {
-  padding: pxl;
+  margin: 30px;
 }
 
 /* line 59 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mt-xl {
-  padding-top: pxl;
+  margin-top: 30px;
 }
 
 /* line 61 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mr-xl {
-  padding-right: pxl;
+  margin-right: 30px;
 }
 
 /* line 63 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mb-xl {
-  padding-bottom: pxl;
+  margin-bottom: 30px;
 }
 
 /* line 65 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-ml-xl {
-  padding-left: pxl;
+  margin-left: 30px;
 }
 
 /* line 69 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mt-rm {
-  padding-top: 0;
+  margin-top: 0;
 }
 
 /* line 71 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mr-rm {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 /* line 73 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-mb-rm {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 /* line 75 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
 .e-ml-rm {
-  padding-left: 0;
+  margin-left: 0;
 }
 
 /* line 76 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\margin.styl */
@@ -5232,7 +5232,7 @@ select {
   padding-left: 0;
 }
 
-/* line 19 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\padding.styl */
+/* line 21 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\padding.styl */
 
 /* line 2 : D:\Developer\Desenvolvimento\Frameorks\ui-e\css\components\visibility.styl */
 @media (min-width: 320px) {
